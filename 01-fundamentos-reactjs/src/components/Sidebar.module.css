@@ -15,7 +15,7 @@
 	flex-direction: column;
 	align-items: center;
 
-	margin-top: calc(0px - 1.5rem - 6px); /* box-sizing: initial  */
+	margin-top: calc(0px - 1.5rem - 6px); /* box-sizing: initial -> inves de usar calc()  */
 }
 
 .profile strong {
@@ -31,7 +31,7 @@
 }
 	
 .avatar {
-	/* box-sizing: initial || width & height = 3rem */ 
+	/* box-sizing: initial || width & height = 3rem -> inves de usar calc() */ 
 	width: calc(3rem + 12px);
 	height: calc(3rem + 12px);
 	border-radius: 8px;
