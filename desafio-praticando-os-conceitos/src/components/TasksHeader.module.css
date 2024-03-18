@@ -1,0 +1,37 @@
+.tasksHeader {
+  display: flex;
+  flex: 1;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tasksHeader aside {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-weight: bold;
+}
+
+.tasksHeader aside:first-child {
+  color: var(--blue);
+}
+
+.tasksHeader aside:last-child {
+  color: var(--purple);
+}
+
+.tasksHeader aside p {
+  font-size: 0.875rem;
+}
+
+.tasksHeader aside span {
+  padding: 2px 8px;
+  border-radius: 16px;
+
+  font-size: 0.75rem;
+
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+}
